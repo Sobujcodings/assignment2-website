@@ -1,0 +1,163 @@
+* {
+    margin: 0%;
+}
+
+
+/* header section starts frome here */
+
+
+
+header {
+    width: 100%;
+    height: 810px;
+    background-color: rgb(247, 205, 154);
+}
+
+
+
+.nav,
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-right: 60px;
+    padding-top: 10px;
+
+}
+
+.nav {
+    width: 100%;
+    padding: 15px 80px;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.header-set {
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.header-set,
+.header-title,
+.header-detail {
+    padding-bottom: 20px;
+
+}
+
+.btn {
+    background-color: #FF900E;
+    border: 0px;
+    color: rgb(255, 255, 255);
+}
+
+header>img {
+    height: 500px;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+
+
+/* main team section starts from here */
+
+
+.team-container {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.team-container img {
+    width: 240px;
+    height: 240px;
+
+}
+
+
+.team-img-all {
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 240px);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.team-details {
+    padding-top: 130px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+}
+
+
+
+.team-title {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 500;
+    padding-bottom:10px ;
+
+}
+
+.team-details p {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.team-btn{
+    background-color: #FF900E;
+    color: aliceblue;
+    border: 0px;
+
+}
+
+
+
+/* article section starts from here */
+
+.articles{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.article-pic{
+    height:600px ;
+    width:500px ;
+}
+
+.articles div{
+    padding-bottom: 50px;
+    
+}
