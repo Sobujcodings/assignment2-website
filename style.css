@@ -572,12 +572,13 @@ header>img {
         margin-top: 300px;
         display: flex;
         flex-direction: column;
-
-
+        
     }
 
     .facts-title {
-        margin-right: 50px;
+        margin-right: 100px;
+        color: #FF900E;
+        
 
     }
 
