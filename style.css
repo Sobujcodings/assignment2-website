@@ -118,7 +118,7 @@ header>img {
     font-family: Work Sans;
     font-size: 45px;
     font-weight: 500;
-    padding-bottom:10px ;
+    padding-bottom: 10px;
 
 }
 
@@ -128,7 +128,8 @@ header>img {
     font-weight: 400;
     padding-bottom: 20px;
 }
-.team-btn{
+
+.team-btn {
     background-color: #FF900E;
     color: aliceblue;
     border: 0px;
@@ -137,27 +138,111 @@ header>img {
 
 
 
+
 /* article section starts from here */
 
-.articles{
+
+
+.article-container {
+    height: 720px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    border: 1px solid;
+    margin-left: 12.5%;
+
+}
+
+
+.articles {
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
+    margin-top: 55px;
+    margin-bottom: 70px;
+    border: 1px solid;
+    
 }
 
-.article-container{
+
+
+.article-title {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+
+
+.article-pic {
+    position: relative;
+    z-index: -1;
+    height: 640px;
+    width: 450px;
+    border: 1px solid;
+    
+}
+
+.articles div {
+    padding-bottom: 30px;
+}
+
+
+
+.articles p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(97, 97, 97);
+}
+
+
+.article-title-p{
+    margin-top: 20px;
+    margin-left: -50px;
+    color: #FF900E;
+}
+
+
+
+.article-btn {
+    height: 120px;
+    width: 50%;
+    border: 1px solid chocolate;
+    display: block;
+    margin-top: -85px;
+    margin-left: -80px;
+    color: rgb(255, 255, 255);
+    border-radius:7px ;
+    /* background-color: #eb8613; */
+    font-size:xx-large;
+    font-weight: 900;
+    text-align: center;
+}
+.experiance{
+    font-size: medium;
+    font-weight: 500;
+    
+}
+
+
+
+.facts-container{
+    height:300px ;
+    width: 50%px;
+    border: 1px solid;
     display: flex;
-    justify-content: center;
-    
 }
 
-
-
-.article-pic{
-    height:600px ;
-    width:500px ;
+.single-container{
+    height:50px ;
+    width: 50px;
+    border: 1px solid;
 }
 
-.articles div{
-    padding-bottom: 50px;
-    
+.facts-title{
+    margin-top: 50px;
 }
