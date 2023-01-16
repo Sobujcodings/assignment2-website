@@ -305,6 +305,7 @@ header>img {
     margin-top: 50px;
     color: rgb(0, 0, 0);
     margin-left: 12.5%;
+    
 }
 
 .facts-title h1 {
@@ -576,6 +577,7 @@ header>img {
 
     .facts-title {
         margin-right: 100px;
+        text-align: center;
         
         
 
