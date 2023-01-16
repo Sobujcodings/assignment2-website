@@ -398,12 +398,15 @@ header>img {
 
 .about {
     margin: 0 auto;
-    padding-top: 40px;
     width: 70%;
     height: 200px;
     margin-top: 100px;
-    background-color: rgb(255, 227, 209);
+    background-color: rgb(255, 238, 227);
     text-align: center;
+    padding-left:10px ;
+    padding-right: 10px;
+    padding-top: 30px;
+    
     
 
 
@@ -420,14 +423,6 @@ header>img {
     font-size: 20px;
     color: #444343;
 }
-
-
-
-
-
-
-
-
 
 
 
